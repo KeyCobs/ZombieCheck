@@ -1,0 +1,60 @@
+{
+    "name": "PawnControls",
+    "maps": [
+        {
+            "name": "Pawn",
+            "id": "982f0dbe-a04c-4496-8016-419479129b17",
+            "actions": [
+                {
+                    "name": "Move",
+                    "type": "PassThrough",
+                    "id": "9dfffbdd-bf31-4670-b50a-4d8327ae0717",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "fb8a671f-e2cc-4b51-8779-5b17b6c48420",
+                    "path": "<Mouse>/leftButton",
+                    "interactions": "Press",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "Bishop",
+            "id": "573777db-cb05-4de8-9acd-9b4633ab9011",
+            "actions": [
+                {
+                    "name": "New action",
+                    "type": "Button",
+                    "id": "c77356e0-03d6-476c-830e-cef717a00e43",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "7d220088-8eaa-44b2-ac17-9ce89b37405c",
+                    "path": "",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "New action",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
