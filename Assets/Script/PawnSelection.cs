@@ -28,11 +28,16 @@ public class PawnSelection : MonoBehaviour
 
     private void Update()
     {
+        if (Input.GetMouseButtonDown(0))
+        {
+
+        //Vector3 positionMouse = Input.GMouse
         //Read the movement value
          float movementInput = pawnActionControls.Pawn.Move.ReadValue<float>();
         // Move the player
         Vector3 currentPos = transform.position;
         currentPos.y += 1;
         transform.position = currentPos;
+        }
     }
 }
